@@ -1,17 +1,33 @@
 package brcc.edu;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+/**
+ * Main class -> program entry.
+ * Demonstrates implementation of each method in TestMe
+ *  with output to console.
+ *
+ * @author Karriem Lang
+ * @version 1.0
+ */
+public class Main
+{
+    /**
+     * Create TestMe object demonstrating each method call.
+     */
+    static void main(String[] args) {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
-    }
+        // TestMe instance
+        TestMe test = new TestMe();
+
+        // String for subString testing
+        String msg = "Java testing is fun!";
+        String subSting = "Java";
+
+        // Output of method calls
+        System.out.println("add 6 + 7: " + test.add(6, 7));
+        System.out.println("subtract 15 - 12: " + test.subtract(15, 12));
+        System.out.println("multiply 4 * 5: " + test.multiply(4, 5));
+        System.out.println("divide 10.0 / 2.0: " + test.divide(10.0, 2.0));
+        System.out.println("isEven 60: " + test.isEven(60));
+
+    }// end main
 }
