@@ -1,4 +1,5 @@
-![Project Cover](![kenny-eliason-uEcSKKDB1pg-unsplash.jpg](images/kenny-eliason-uEcSKKDB1pg-unsplash.jpg))
+![Project Cover](images/kenny-eliason-uEcSKKDB1pg-unsplash.jpg)
+
 # 🧪 TestMe Java Project
 
 ![Java](https://img.shields.io/badge/Language-Java-blue)
